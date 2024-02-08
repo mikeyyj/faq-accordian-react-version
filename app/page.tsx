@@ -1,15 +1,13 @@
-import Faq from "./components/Faq";
-
+//main Element bg-color: gray
+//mainContainer Class bg-color: white
 export default function Home() {
-  return (
-    <main>
-      <div className="container">
-        <h1 className="navForNow">Nav bar here</h1>
-        <Faq />
-        <div className="faqContainer">
-          <p className="titleFaq">FAQs</p>
-        </div>
-      </div>
-    </main>
-  );
+   return (
+      <main>
+         <div className="homeContainer">
+            <div className="homeContainer">
+               <p className="titleFaq">Home Page</p>
+            </div>
+         </div>
+      </main>
+   );
 }
