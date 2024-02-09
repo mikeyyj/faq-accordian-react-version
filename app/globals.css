@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* top parent */
 body {
    background-color: red;
@@ -15,9 +18,10 @@ main {
 /* main content container */
 .homeContainer {
    display: flex;
+   flex-direction: column;
    width: 100%;
-   justify-content: center;
    align-items: center;
+
    background-color: white;
 }
 /*-----------------NAVBAR------------------*/
@@ -70,4 +74,7 @@ main {
 /*-----------------Button------------------*/
 h1 {
    font-size: 1.5em;
+}
+a {
+   text-decoration: none;
 }

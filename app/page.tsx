@@ -1,12 +1,18 @@
 //main Element bg-color: gray
 //mainContainer Class bg-color: white
+import HomeComponent from "./components/HomeComponent";
+import random from "./random.js";
+
 export default function Home() {
+   random();
+   
    return (
       <main>
          <div className="homeContainer">
-            <div className="homeContainer">
-               <p className="titleFaq">Home Page</p>
-            </div>
+            
+               <HomeComponent />
+               <p >Home Page</p>
+            
          </div>
       </main>
    );
